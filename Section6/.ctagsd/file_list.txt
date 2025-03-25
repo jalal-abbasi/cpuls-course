@@ -1,0 +1,7 @@
+F:\Personal\CodeliteWS\Section6\Challenge\main.cpp
+F:\Personal\CodeliteWS\Section6\ChallengeSolution\main.cpp
+F:\Personal\CodeliteWS\Section6\SizeofOperator\main.cpp
+F:\Personal\CodeliteWS\Section6\PrimitiveTypes\main.cpp
+F:\Personal\CodeliteWS\Section6\Constants\main.cpp
+F:\Personal\CodeliteWS\Section6\GlobalVariables\main.cpp
+F:\Personal\CodeliteWS\Section6\InitializingVariables\main.cpp
