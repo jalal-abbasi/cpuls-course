@@ -1,0 +1,4 @@
+F:\Personal\CodeliteWS\Section7\Vectors\main.cpp
+F:\Personal\CodeliteWS\Section7\ChallengeSolution\main.cpp
+F:\Personal\CodeliteWS\Section7\Challenge\main.cpp
+F:\Personal\CodeliteWS\Section7\Arrays\main.cpp

@@ -1,0 +1,41 @@
+[{
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\ChallengeSolution\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\ChallengeSolution",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\ChallengeSolution\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\ChallengeSolution\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\LogicalOperators\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\LogicalOperators",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\LogicalOperators\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\LogicalOperators\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\RelationalOperators\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\RelationalOperators",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\RelationalOperators\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\RelationalOperators\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\EqualityOperators\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\EqualityOperators",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\EqualityOperators\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\EqualityOperators\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\Challenge\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\Challenge",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\Challenge\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\Challenge\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\MixedExpressions\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\MixedExpressions",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\MixedExpressions\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\MixedExpressions\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\AssignmentOperator\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\AssignmentOperator",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\AssignmentOperator\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\AssignmentOperator\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\Euros\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\Euros",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\Euros\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\Euros\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\ArithmeticOperators\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\ArithmeticOperators",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\ArithmeticOperators\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\ArithmeticOperators\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"F:\\Personal\\CodeliteWS\\Section8\\IncrementDecrementOperators\\main.cpp",
+		"directory":	"F:\\Personal\\CodeliteWS\\Section8\\IncrementDecrementOperators",
+		"command":	"C:/mingw64/bin/g++.exe -c F:\\Personal\\CodeliteWS\\Section8\\IncrementDecrementOperators\\main.cpp -o F:\\Personal\\CodeliteWS\\Section8\\IncrementDecrementOperators\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0 -IC:\\mingw64\\include\\c++\\13.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\13.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}]

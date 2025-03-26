@@ -1,0 +1,10 @@
+F:\Personal\CodeliteWS\Section8\ChallengeSolution\main.cpp
+F:\Personal\CodeliteWS\Section8\LogicalOperators\main.cpp
+F:\Personal\CodeliteWS\Section8\RelationalOperators\main.cpp
+F:\Personal\CodeliteWS\Section8\EqualityOperators\main.cpp
+F:\Personal\CodeliteWS\Section8\Challenge\main.cpp
+F:\Personal\CodeliteWS\Section8\MixedExpressions\main.cpp
+F:\Personal\CodeliteWS\Section8\AssignmentOperator\main.cpp
+F:\Personal\CodeliteWS\Section8\Euros\main.cpp
+F:\Personal\CodeliteWS\Section8\ArithmeticOperators\main.cpp
+F:\Personal\CodeliteWS\Section8\IncrementDecrementOperators\main.cpp
