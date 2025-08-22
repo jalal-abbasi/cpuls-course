@@ -6,8 +6,8 @@
 ProjectName            :=RangeBasedForLoop
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Section9"
-ProjectPath            :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Section9/RangeBasedForLoop"
+WorkspacePath          :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9"
+ProjectPath            :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/RangeBasedForLoop"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Section9/RangeBasedForLoop/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/RangeBasedForLoop/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

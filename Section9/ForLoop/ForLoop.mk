@@ -6,8 +6,8 @@
 ProjectName            :=ForLoop
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Section9"
-ProjectPath            :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Section9/ForLoop"
+WorkspacePath          :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9"
+ProjectPath            :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/ForLoop"
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/ForLoop
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Section9/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Section9/ForLoop/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/ForLoop/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
