@@ -3,19 +3,20 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Challenge
+ProjectName            :=Challenge_MySolution
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9"
-ProjectPath            :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Challenge"
-IntermediateDirectory  :=./Debug
-OutDir                 := $(IntermediateDirectory)
+ProjectPath            :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Challenge_MySolution"
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Challenge_MySolution
+OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=seyyed.abbasi
 Date                   :=22/08/2025
 CodeLitePath           :="C:/Program Files/CodeLite"
+MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
 SharedObjectLinkerName :=C:/mingw64/bin/g++.exe -shared -fPIC
 ObjectSuffix           :=.o
@@ -28,18 +29,17 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=$(IntermediateDirectory)
-OutputFile             :=$(IntermediateDirectory)/$(ProjectName)
+OutputDirectory        :=D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/build-$(WorkspaceConfiguration)/bin
+OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Challenge.txt"
+ObjectsFileList        :=$(IntermediateDirectory)/ObjectsList.txt
 PCHCompileFlags        :=
-MakeDirCommand         :="C:/Program Files/CodeLite/mkdir.exe" -p
 RcCmpOptions           := 
 RcCompilerName         :=C:/mingw64/bin/windres.exe
-LinkOptions            :=  
+LinkOptions            :=  -static
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
 RcIncludePath          := 
@@ -54,8 +54,8 @@ LibPath                := $(LibraryPathSwitch).
 AR       := C:/mingw64/bin/ar.exe -r
 CXX      := C:/mingw64/bin/g++.exe
 CC       := C:/mingw64/bin/gcc.exe
-CXXFLAGS := -std=c++14 -Wall -g -O0 -std=c++14 -Wall $(Preprocessors)
-CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
+CXXFLAGS :=  -O0 -gdwarf-2 -std=c++17 -Wall $(Preprocessors)
+CFLAGS   :=  -gdwarf-2 -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := C:/mingw64/bin/as.exe
 
@@ -74,20 +74,20 @@ Objects=$(Objects0)
 ## Main Build Targets 
 ##
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
-all: $(OutputFile)
+all: MakeIntermediateDirs $(OutputFile)
 
 $(OutputFile): $(IntermediateDirectory)/.d $(Objects) 
-	@$(MakeDirCommand) $(@D)
+	@if not exist "$(IntermediateDirectory)" $(MakeDirCommand) "$(IntermediateDirectory)"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@$(MakeDirCommand) "./Debug"
-
+	@if not exist "$(IntermediateDirectory)" $(MakeDirCommand) "$(IntermediateDirectory)"
+	@if not exist "$(OutputDirectory)" $(MakeDirCommand) "$(OutputDirectory)"
 
 $(IntermediateDirectory)/.d:
-	@$(MakeDirCommand) "./Debug"
+	@if not exist "$(IntermediateDirectory)" $(MakeDirCommand) "$(IntermediateDirectory)"
 
 PreBuild:
 
@@ -95,8 +95,8 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Challenge/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section9/Challenge_MySolution/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
@@ -104,6 +104,6 @@ $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 ## Clean
 ##
 clean:
-	$(RM) -r ./Debug/
+	$(RM) -r $(IntermediateDirectory)
 
 
