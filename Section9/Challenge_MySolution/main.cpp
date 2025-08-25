@@ -111,7 +111,7 @@ int main(){
 
             break;
         case 'Q':
-            
+            cout << "Goodbye!"
             break;
 
         }
