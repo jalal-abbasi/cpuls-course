@@ -80,10 +80,34 @@ int main(){
             break;
             
         case 'S':
-            
+            if (numbers.size() !=0){
+                int min{numbers[0]};
+                for (int number : numbers){
+                    if (number < min)
+                        min = number;
+                }
+                
+                cout << "The smallest number is : "<< min << endl;
+                
+            } 
+            else
+                cout << "Unable to determine the smallest number - list is empty" << endl;
+
             break;
         case 'L':
-            
+            if (numbers.size() !=0){
+                int max{numbers[0]};
+                for (int number : numbers){
+                    if (number > max)
+                        max = number;
+                }
+                
+                cout << "The largest number is : "<< max << endl;
+                
+            } 
+            else
+                cout << "Unable to determine the largest number - list is empty" << endl;
+
             break;
         case 'Q':
             
