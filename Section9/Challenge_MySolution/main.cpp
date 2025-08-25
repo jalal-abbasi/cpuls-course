@@ -4,6 +4,7 @@
 #include <typeinfo>
 #include <limits>
 #include <ios>
+#include <iomanip> 
 
 using namespace std;
 
@@ -13,13 +14,13 @@ int main(){
 //    vector<int> numbers;
     vector<char> options{'P','A', 'M', 'S', 'L', 'Q'};
     int is_not_integer{0};
+    char choice{};
     
-
-    char choice;
     
     do{
-      
-        cout << "P - Print numbers" "\n"
+        // Display menu
+
+        cout << "P - Print numbers" "\n" // no need to write \n separately! you could have written "P - Print numbers \n"
         "A - Add a number" "\n" 
         "M - Display mean of the numbers" "\n" 
         "S - Display the smallest number" "\n" 
@@ -28,12 +29,11 @@ int main(){
         
         cout << "\n" "Enter your choice: ";
         cin >> choice;
-//        cout << "\n" << choice << "\n" << endl;
-        cin.sync();
+
         choice = toupper(choice);
         
         if (find(options.begin(),options.end(), choice)==options.end())
-            cout << "Unknown selection, please try again" << endl;
+            cout << "Unknown selection, please try again" <<"\n" << endl;
             
         switch (choice){
         case 'P':{
@@ -45,7 +45,7 @@ int main(){
                 cout << "]";
             } 
             else
-                cout << "[] - the list is empty" << endl;
+                cout << "[] - the list is empty" <<"\n" << endl;
             break;
         }
         case 'A':
@@ -53,8 +53,10 @@ int main(){
             int user_int;
             cin >> user_int;
             if (cin.fail()){
-                cout << "Wrong input, you must input an integer! Try again." << endl;
+                cout << "Wrong input, you must input an integer! Try again." <<"\n" << endl;
                 is_not_integer=1;
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
             }
                 
             else{
@@ -66,11 +68,13 @@ int main(){
             
         case 'M':
             if (numbers.size() !=0){
-                int average{0};
+//                int average{0}; wrong: average must be double
+                double average{0};
                 for (int number : numbers){
                     average += number;
                 }
-                average /= numbers.size();
+                average /= numbers.size(); 
+                cout << fixed << setprecision(2); // you could have put this line to set the precision of the double
                 cout << "The average is : "<< average << endl;
                 
             } 
@@ -111,16 +115,12 @@ int main(){
 
             break;
         case 'Q':
-            cout << "Goodbye!"
+            cout << "Goodbye!";
             break;
 
         }
     }
-while(find(options.begin(),options.end(), choice)==options.end() || is_not_integer);
-    
-    
-    
-    
+    while(find(options.begin(),options.end(), choice)==options.end() || is_not_integer);
     
     return 0;
 }
