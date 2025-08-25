@@ -49,7 +49,19 @@ int main(){
             break;
         }
         case 'A':
-            
+            cout << "\n""Type an integer you want to add to the list: " ;
+            int user_int;
+            cin >> user_int;
+            if (cin.fail()){
+                cout << "Wrong input, you must input an integer! Try again." << endl;
+                is_not_integer=1;
+            }
+                
+            else{
+                numbers.push_back(user_int);
+                cout << user_int << " added. " << endl;
+            }
+
             break;
             
         case 'M':
