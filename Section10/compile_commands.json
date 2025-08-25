@@ -1,0 +1,25 @@
+[{
+		"file":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\test\\main.cpp",
+		"directory":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\test",
+		"command":	"C:/mingw64/bin/g++.exe -c \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\test\\main.cpp\" -o \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\test\\main.cpp\".o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\15.1.0 -IC:\\mingw64\\include\\c++\\15.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\15.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+	}, {
+		"file":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CPPStrings\\main.cpp",
+		"directory":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CPPStrings",
+		"command":	"g++ -c \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CPPStrings\\main.cpp\" -o \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CPPStrings\\main.cpp\".o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\ChallengeSolution\\main.cpp",
+		"directory":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\ChallengeSolution",
+		"command":	"g++ -c \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\ChallengeSolution\\main.cpp\" -o \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\ChallengeSolution\\main.cpp\".o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\Challenge\\main.cpp",
+		"directory":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\Challenge",
+		"command":	"g++ -c \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\Challenge\\main.cpp\" -o \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\Challenge\\main.cpp\".o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CharFunctions\\main.cpp",
+		"directory":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CharFunctions",
+		"command":	"g++ -c \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CharFunctions\\main.cpp\" -o \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CharFunctions\\main.cpp\".o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CStyleStrings\\main.cpp",
+		"directory":	"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CStyleStrings",
+		"command":	"g++ -c \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CStyleStrings\\main.cpp\" -o \"D:\\OneDrive - POMINI Long Rolling Mills S.r.l\\Desktop\\Learning\\git\\Section10\\CStyleStrings\\main.cpp\".o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}]
