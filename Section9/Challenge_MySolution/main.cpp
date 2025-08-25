@@ -65,7 +65,18 @@ int main(){
             break;
             
         case 'M':
-            
+            if (numbers.size() !=0){
+                int average{0};
+                for (int number : numbers){
+                    average += number;
+                }
+                average /= numbers.size();
+                cout << "The average is : "<< average << endl;
+                
+            } 
+            else
+                cout << "Unable to calculate the mean - no data" << endl;
+
             break;
             
         case 'S':
