@@ -29,7 +29,8 @@ int main() {
         size_t position = key.find(message[i]);
        
         if (position != string::npos)
-            message[i] = alphabet[position];
+            message[i] = alphabet[position]; 
+//  instead of using: message[i] = alphabet[position], You could have used: message[i] = alphabet.at(position). This way, if the position is out of scope, you would get an exception
     }
     
 cout << "This is your deciphered message, again!: " << message << endl;
