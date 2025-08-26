@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Challenge_MySolution
+ProjectName            :=Assignment1
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section10"
-ProjectPath            :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section10/Challenge_MySolution"
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Challenge_MySolution
+ProjectPath            :="D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section10/Assignment1"
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Assignment1
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section10/Challenge_MySolution/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/OneDrive - POMINI Long Rolling Mills S.r.l/Desktop/Learning/git/Section10/Assignment1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
