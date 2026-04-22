@@ -1,0 +1,32 @@
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.bin
+*.pdb
+
+# Ignore CodeLite specific files
+*.tags
+*.tags1
+*.workspace
+*.layout
+*.db
+
+# Ignore build directories
+build/
+Debug/
+Release/
+build-Debug/
+Workspace1/.cache/
+Workspace1/.ctagsd/
+Workspace1/.codelite/
+
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
