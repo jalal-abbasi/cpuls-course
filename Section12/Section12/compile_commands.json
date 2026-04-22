@@ -1,0 +1,53 @@
+[{
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\Challenge\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\Challenge",
+		"command":	"C:/mingw64/bin/g++.exe -c D:\\Learning\\C++\\Section12\\Section12\\Challenge\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\Challenge\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\15.1.0 -IC:\\mingw64\\include\\c++\\15.1.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\15.1.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\PassingPointers3\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\PassingPointers3",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\PassingPointers3\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\PassingPointers3\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\Debugger\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\Debugger",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\Debugger\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\Debugger\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\AraysAndPointers\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\AraysAndPointers",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\AraysAndPointers\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\AraysAndPointers\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\PointerArithmetic\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\PointerArithmetic",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\PointerArithmetic\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\PointerArithmetic\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\References\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\References",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\References\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\References\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\PassingPointers2\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\PassingPointers2",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\PassingPointers2\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\PassingPointers2\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\PassingPointers\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\PassingPointers",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\PassingPointers\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\PassingPointers\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\ReturnPointer\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\ReturnPointer",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\ReturnPointer\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\ReturnPointer\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\DynamicMemory\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\DynamicMemory",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\DynamicMemory\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\DynamicMemory\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\ChallengeSolution\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\ChallengeSolution",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\ChallengeSolution\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\ChallengeSolution\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\Dereference\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\Dereference",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\Dereference\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\Dereference\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}, {
+		"file":	"D:\\Learning\\C++\\Section12\\Section12\\SimplePointers\\main.cpp",
+		"directory":	"D:\\Learning\\C++\\Section12\\Section12\\SimplePointers",
+		"command":	"g++ -c D:\\Learning\\C++\\Section12\\Section12\\SimplePointers\\main.cpp -o D:\\Learning\\C++\\Section12\\Section12\\SimplePointers\\main.cpp.o -target x86_64-w64-mingw32 -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+	}]
